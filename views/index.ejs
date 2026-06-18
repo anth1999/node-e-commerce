@@ -1,0 +1,11 @@
+
+<!DOCTYPE html><html><head><title>Store</title></head><body>
+<h1>Node.js E-commerce Demo</h1>
+<% products.forEach(p=>{ %>
+<div style="border:1px solid #ccc;padding:10px;margin:10px">
+<h3><%= p.name %></h3>
+<p>₹<%= p.price %></p>
+<button>Add to Cart</button>
+</div>
+<% }) %>
+</body></html>
